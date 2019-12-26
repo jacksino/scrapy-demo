@@ -3,7 +3,7 @@ import scrapy
 
 import re
 
-from Demo.items import DemoItem
+from Demo.Demo.items import DemoItem
 
 class DemoSpider(scrapy.Spider):
     name = 'demo'
